@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table3</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid;
+        }
+        tr,td{
+            padding:3px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Header coloumn 1</th>
+            <th>Header coloumn 2</th>
+            <th>Header coloumn 3</th>
+            <th>Header coloumn 4</th>
+        </tr>
+        <tr>
+            <td>Row 2 - Item 1</td>
+            <td>Row 2 - Item 2</td>
+            <th>Row 2: Nested table 1
+                <table>
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                        
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Row 2 Header</td>
+                        <td>item</td>
+                        
+                    </tr>
+                </table>
+            </td>
+            
+            <td>Row 2 - Item 4 <br>
+                A Second Line</td>
+        </tr>
+        <tr>
+            <td>Row 3 - Item 1</td>
+            <td>Row 3 - Item 2</td>
+            <td></td>
+            <td>Row 3 - Item 3</td>
+        </tr>
+        <tr>
+            <td>Row 4 - Item 1</td>
+            <td>Row 4 - Item 2</td>
+            <td>Row 4 - Item 3</td>
+            <!-- <td></td> -->
+        </tr> 
+    </table>
+</body>
+</html>
